@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #415e9b;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    border-bottom: 1px solid blue;
+}
+.leftheader{
+    width: 55%;
+    line-height: 80px;
+    display: flex;
+    justify-content: center;
+}
+.leftheader p{
+    color:white;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: inherit;
+}
+.rightheader{
+    color:white;
+    width: 45%;
+    padding-top: 15px;
+    
+}
+.email{
+    float: left;
+}
+.password{
+    float: left;
+    margin-left: 13px;
+}
+.password a{
+    text-decoration: none;
+    color: rgb(182, 182, 182);
+    font-size: 13px;
+}
+.button{
+    float: left;
+    margin-left: 13px;
+    margin-top: 17px;
+}
+.button input[type="submit"]{
+    background: #4267b2;
+    border: 1px solid #29487d;
+    border-radius: 2px;
+    color: #fff;
+    padding: 4px 7px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.content{
+    width: 100%;
+    background: linear-gradient(#fff,#d9ddeb);
+    display: flex;
+    justify-content: space-between;
+   
+}
+.leftcontent{
+    width: 50%;
+    margin-top: 50px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    
+}
+.leftcontent p{
+    font-size: 25px;
+    color: rgb(0, 0, 94);
+    font-weight: bold;
+    margin-left: 40%;
+}
+.rightcontent{
+    width: 47%;
+    float: right;
+    margin-bottom: 20px;
+}
+.rightcontent h2{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: rgb(37, 35, 35);
+}
+.rightcontent p{
+    font-size: 20px;
+    font-weight: 750;
+    margin-bottom: 20px;
+}
+.account input[type="text"]{
+    height: 38px;
+    width: 200px;
+    margin-bottom: 20px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+   font-size: 20px;
+   padding-left: 8px;
+}
+.account input[type="password"]{
+    height: 38px;
+    width: 404px;
+    margin-bottom: 20px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    font-size: 20px;
+   padding-left: 8px;
+}
+.account #mobile{
+    width: 404px;
+}
+.account #Birthday{
+    margin-bottom: 20px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 404px;
+    height: 38px;
+    padding-left: 8px;
+}
+
+.account p{
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: normal;
+    /* text-decoration: none; */
+    width: 390px;
+}
+.account p a{
+    text-decoration: none;
+}
+.account #signup{
+    height: 40px;
+    width: 200px;
+    background-color: rgb(40, 131, 40);
+    color: white;
+    border: 1px solid rgb(53, 73, 72);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    box-shadow: 1px 3px 5px solid green;
+}
+.footer{
+    height: 60px;
+    
+}
+.footer p{
+    line-height: 60px;
+    width: 90%;
+    float: left;
+    text-align: center;
+    color: rgb(0, 110, 153);
+    font-weight: bold;
+    font-size: 14px;
+}
